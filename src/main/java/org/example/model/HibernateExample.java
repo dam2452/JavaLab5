@@ -1,5 +1,9 @@
 package org.example.model;
 
+import org.example.model.Circle;
+import org.example.model.Color;
+import org.example.model.ShapeDAO;
+
 public class HibernateExample {
     public static void main(String[] args) {
         ShapeDAO shapeDAO = new ShapeDAO();

@@ -36,6 +36,6 @@ class ShapeDescriberTest {
 
         List<String> warnLogs = logCaptor.getWarnLogs();
         assertEquals(1, warnLogs.size());
-        assertTrue(warnLogs.get(0).contains("Shape is null. Cannot describe."));
+        assertTrue(warnLogs.getFirst().contains("Shape is null. Cannot describe."));
     }
 }

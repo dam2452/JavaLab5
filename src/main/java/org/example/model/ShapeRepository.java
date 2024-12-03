@@ -5,5 +5,4 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-public interface ShapeRepository extends JpaRepository<Shape, Long> {
-}
+public interface ShapeRepository extends JpaRepository<Shape, Long> {}

@@ -9,7 +9,7 @@ public class Color {
     private int blue;
     private int alpha;
 
-    protected Color() {}
+    public Color() {}
 
     public Color(int red, int green, int blue, int alpha) {
         if (red < 0 || red > 255 || green < 0 || green > 255 ||

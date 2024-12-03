@@ -5,7 +5,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 public class ShapeDAO {
-    private SessionFactory sessionFactory;
+    private final SessionFactory sessionFactory;
 
     public ShapeDAO() {
         sessionFactory = new Configuration().configure().buildSessionFactory();

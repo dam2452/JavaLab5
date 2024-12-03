@@ -11,14 +11,11 @@ public class ShapeRenderer {
             System.out.println("Rendering shape: " + shape.getClass().getSimpleName());
             System.out.println("Color: " + shape.getColorDescription());
 
-            if (shape instanceof Rectangle rectangle) {
-                renderRectangle(rectangle);
-            } else if (shape instanceof Triangle triangle) {
-                renderTriangle(triangle);
-            } else if (shape instanceof Circle circle) {
-                renderCircle(circle);
-            } else {
-                System.out.println("Unknown shape. Cannot render.");
+            switch (shape) {
+                case Rectangle rectangle -> renderRectangle(rectangle);
+                case Triangle triangle -> renderTriangle(triangle);
+                case Circle circle -> renderCircle(circle);
+                default -> System.out.println("Unknown shape. Cannot render.");
             }
         }
     }
