@@ -16,9 +16,9 @@
         <property name="hibernate.format_sql">true</property>
 
 
-        <mapping class="model.Circle"/>
-        <mapping class="model.Rectangle"/>
-        <mapping class="model.Triangle"/>
+        <mapping class="org.example.model.Circle"/>
+        <mapping class="org.example.model.Rectangle"/>
+        <mapping class="org.example.model.Triangle"/>
 
     </session-factory>
 </hibernate-configuration>

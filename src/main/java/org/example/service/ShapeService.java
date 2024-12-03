@@ -1,7 +1,7 @@
-package service;
+package org.example.service;
 
-import model.Shape;
-import model.ShapeRepository;
+import org.example.model.Shape;
+import org.example.model.ShapeRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

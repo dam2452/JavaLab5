@@ -2,13 +2,13 @@ package org.example;
 
 import java.util.Arrays;
 import java.util.List;
-import model.Color;
-import model.Rectangle;
-import model.Shape;
-import model.ShapeDescriber;
-import model.ShapeRenderer;
-import model.Triangle;
-import model.Circle;
+import org.example.model.Color;
+import org.example.model.Rectangle;
+import org.example.model.Shape;
+import org.example.model.ShapeDescriber;
+import org.example.model.ShapeRenderer;
+import org.example.model.Triangle;
+import org.example.model.Circle;
 
 public class Main {
     public static void main(String[] args) {

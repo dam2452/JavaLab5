@@ -1,4 +1,4 @@
-package model;
+package org.example.model;
 
 public class HibernateExample {
     public static void main(String[] args) {

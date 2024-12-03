@@ -1,6 +1,5 @@
-package model;
+package org.example.model;
 
-import model.Shape;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

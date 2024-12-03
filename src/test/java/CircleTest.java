@@ -1,5 +1,5 @@
-import model.Circle;
-import model.Color;
+import org.example.model.Circle;
+import org.example.model.Color;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

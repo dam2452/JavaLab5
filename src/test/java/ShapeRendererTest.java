@@ -1,9 +1,9 @@
-import model.Circle;
-import model.Color;
-import model.Rectangle;
-import model.Shape;
-import model.ShapeRenderer;
-import model.Triangle;
+import org.example.model.Circle;
+import org.example.model.Color;
+import org.example.model.Rectangle;
+import org.example.model.Shape;
+import org.example.model.ShapeRenderer;
+import org.example.model.Triangle;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

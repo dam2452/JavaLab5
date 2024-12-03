@@ -1,4 +1,7 @@
-import model.*;
+import org.example.model.Circle;
+import org.example.model.Color;
+import org.example.model.ShapeDAO;
+import org.example.model.Triangle;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

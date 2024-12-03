@@ -1,5 +1,5 @@
-import model.Color;
-import model.Rectangle;
+import org.example.model.Color;
+import org.example.model.Rectangle;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

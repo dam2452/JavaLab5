@@ -1,7 +1,7 @@
-package controller;
+package org.example.controller;
 
-import model.Shape;
-import service.ShapeService;
+import org.example.model.Shape;
+import org.example.service.ShapeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
